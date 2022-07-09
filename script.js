@@ -373,7 +373,7 @@ function play (num) {
         if (player.playerInfo.currentTime > PLAYLIST[num].end) {
             play((PLAYLIST.current + 1) % PLAYLIST.length);
         }
-        document.getElementById('progress').innerText = minsec(PLAYLIST[num].end - player.playerInfo.currentTime);
+        document.getElementById('progress').innerText = minsec(player.playerInfo.currentTime - PLAYLIST[num].start);
         
     }, 100);
 }
