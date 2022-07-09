@@ -1,1 +1,0 @@
-# blue-archive-bgm-player
