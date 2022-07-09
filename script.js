@@ -361,7 +361,7 @@ function play (num) {
     document.getElementById('music-tit').innerText = PLAYLIST[num].title;
     
     let duration = PLAYLIST[num].end - PLAYLIST[num].start;
-    document.getElementById('duration').innerText = duration
+    document.getElementById('duration').innerText = minsec(duration);
     
     player.loadVideoById({
         videoId: PLAYLIST[num].id,
