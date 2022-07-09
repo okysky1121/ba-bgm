@@ -350,11 +350,18 @@ function onYouTubeIframeAPIReady() {
     }, 100);
 }
 
+function minsec (n) {
+    return `${Math.floor(n/60)}:${String((n%60)|0).padStart(2, '0')}`;
+}
+
 function play (num) {
     clearInterval(player.__interval);
     PLAYLIST.current = num;
     
-    console.log(num)
+    document.getElementById('music-tit').innerText = PLAYLIST[num].title;
+    
+    let duration = PLAYLIST[num].end - PLAYLIST[num].start;
+    document.getElementById('duration').innerText = duration
     
     player.loadVideoById({
         videoId: PLAYLIST[num].id,
@@ -366,5 +373,7 @@ function play (num) {
         if (player.playerInfo.currentTime > PLAYLIST[num].end) {
             play((PLAYLIST.current + 1) % PLAYLIST.length);
         }
+        document.getElementById('progress').innerText = minsec(PLAYLIST[num].end - player.playerInfo.currentTime);
+        
     }, 100);
 }
