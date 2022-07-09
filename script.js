@@ -332,7 +332,7 @@ const PLAYLIST = [
 PLAYLIST.current = 0;
 
 document.getElementById('playlist').innerHTML += PLAYLIST.map((el, i) => {
-    return `<p class="pl" onclick="play(${i})">${el.track}. ${el.title}</p>`;
+    return `<p class="pl"><span onclick="play(${i})">${el.track}. ${el.title}</span></p>`;
 }).join('');
 
 var player;
