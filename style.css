@@ -4,6 +4,10 @@ html, body {
   font-family: 'Noto Sans KR', sans-serif;
 }
 
+#player {
+  margin: 20px;
+}
+
 #playlist {
   padding: 20px;
 }
