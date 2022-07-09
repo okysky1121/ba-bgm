@@ -3,3 +3,11 @@
 html, body {
   font-family: 'Noto Sans KR', sans-serif;
 }
+
+#playlist {
+  padding: 20px;
+}
+
+.pl {
+  margin-bottom: -5px;
+}
