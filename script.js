@@ -339,8 +339,8 @@ var player;
 function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
         videoId: 'hbYXXaaE9F0',
-        width: Math.min(480, window.innerWidth-20),
-        height: 0.55*(Math.min(480, window.innerWidth-20))
+        width: Math.min(480, window.innerWidth-50),
+        height: 0.55*(Math.min(480, window.innerWidth-50))
     });
 
     player.__interval = setInterval(function () {
