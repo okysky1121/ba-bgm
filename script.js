@@ -377,3 +377,17 @@ function play (num) {
         
     }, 100);
 }
+
+function pause () {
+    document.getElementById('pause-music').innerText = '▶';
+    document.getElementById('pause-music').setAttribute('id', 'resume-music');
+    document.getElementById('resume-music').setAttribute('onclick', 'resume();');
+    player.pauseVideo();
+}
+
+function resume () {
+    document.getElementById('resume-music').innerText = '▐▐';
+    document.getElementById('resume-music').setAttribute('id', 'pause-music');
+    document.getElementById('pause-music').setAttribute('onclick', 'pause();');
+    player.playVideo();
+}
