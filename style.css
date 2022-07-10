@@ -17,6 +17,6 @@ html, body {
 }
 
 #btns button {
-  min-height: 18px;
+  height: 18px;
   background: transparent;
 }
