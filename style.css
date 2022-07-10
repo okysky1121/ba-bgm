@@ -15,3 +15,7 @@ html, body {
 .pl {
   margin-bottom: -5px;
 }
+
+#btns button {
+  min-height: 15px;
+}
