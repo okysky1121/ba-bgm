@@ -17,8 +17,8 @@ html, body {
 }
 
 #btns button {
-  height: 18px;
-  background: transparent;
-  border: 1px solid #196cff;
-  border-radius: 2px;
+  height: 25px;
+  background: #e7e7e7;
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
 }
