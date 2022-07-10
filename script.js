@@ -375,7 +375,7 @@ function play (num) {
     
     player.__interval = setInterval(function () {
         if (player.playerInfo.currentTime > PLAYLIST[num].end) {
-            play((PLAYLIST.current + 1) % PLAYLIST.length);
+            nextmusic();
         }
         document.getElementById('progress').innerText = minsec(player.playerInfo.currentTime - PLAYLIST[num].start);
         
@@ -394,4 +394,12 @@ function resume () {
     document.getElementById('resume-music').setAttribute('id', 'pause-music');
     document.getElementById('pause-music').setAttribute('onclick', 'pause();');
     player.playVideo();
+}
+
+function prevmusic () {
+    play((PLAYLIST.current + PLAYLIST.length - 1) % PLAYLIST.length);
+}
+
+function nextmusic () {
+    play((PLAYLIST.current + 1) % PLAYLIST.length);
 }
