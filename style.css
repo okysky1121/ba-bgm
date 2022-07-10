@@ -10,10 +10,6 @@ html, body {
 
 #playhead {
   margin: 20px;
-  padding: 10px;
-  
-  border: 1px solid black;
-  border-radius: 12px;
 }
 
 #playlist {
@@ -25,7 +21,8 @@ html, body {
 }
 
 #btns button {
-  height: 25px;
+  width: 35px;
+  height: 35px;
   background: #e7e7e7;
   border: 1px solid #e7e7e7;
   border-radius: 10px;
