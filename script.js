@@ -363,7 +363,7 @@ function play (num) {
     let duration = PLAYLIST[num].end - PLAYLIST[num].start;
     document.getElementById('duration').innerText = minsec(duration);
     
-    document.getElementById('resume-music').innerText = '▐▐';
+    document.getElementById('resume-music').innerText = '❚❚';
     document.getElementById('resume-music').setAttribute('id', 'pause-music');
     document.getElementById('pause-music').setAttribute('onclick', 'pause();');
     
@@ -390,7 +390,7 @@ function pause () {
 }
 
 function resume () {
-    document.getElementById('resume-music').innerText = '▐▐';
+    document.getElementById('resume-music').innerText = '❚❚';
     document.getElementById('resume-music').setAttribute('id', 'pause-music');
     document.getElementById('pause-music').setAttribute('onclick', 'pause();');
     player.playVideo();
