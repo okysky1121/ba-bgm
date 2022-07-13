@@ -321,6 +321,20 @@ const PLAYLIST = [
         end: 1*60+53
     },
     {
+        title: 'OperationD',
+        id: 'zhkSWznNGlA',
+        track: 96,
+        start: 0*60+1,
+        end: 1*60+53
+    },
+    {
+        title: 'Nesno wons',
+        id: 'aVKifR68kzQ',
+        track: 99,
+        start: 0*60+1,
+        end: 1*60+56
+    },
+    {
         title: 'Blue New World',
         id: 'L6bl6RAZFT8',
         track: 0,
