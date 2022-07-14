@@ -331,7 +331,7 @@ const PLAYLIST = [
         title: 'Nesno wons',
         id: 'aVKifR68kzQ',
         track: 99,
-        start: 0*60+1,
+        start: 0*60+0.01,
         end: 1*60+56
     },
     {
