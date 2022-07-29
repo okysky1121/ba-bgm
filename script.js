@@ -128,7 +128,7 @@ const PLAYLIST = [
         title: 'Midnight Trip',
         id: 'hbYXXaaE9F0',
         track: 21,
-        start: 21*60+34,
+        start: 21*60+33,
         end: 22*60+52
     },
     {
