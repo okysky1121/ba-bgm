@@ -240,14 +240,14 @@ const PLAYLIST = [
         title: 'Pixel Time',
         id: 'jLNikHtJUeA',
         track: 64,
-        start: 0*60+1,
+        start: 0.1,
         end: 2*60+10
     },
     {
         title: 'Summer Bounce',
         id: 'lTjp3sGQ-NY',
         track: 79,
-        start: 0*60+1,
+        start: 0.1,
         end: 2*60+18
     },
     {
@@ -268,7 +268,7 @@ const PLAYLIST = [
         title: 'PRST Academy',
         id: 'cTLVPXpKu-E',
         track: 83,
-        start: 0*60+1,
+        start: 0.1,
         end: 1*60+43
     },
     {
@@ -282,14 +282,14 @@ const PLAYLIST = [
         title: 'Summertime Archive',
         id: 'kENHnTLwoY8',
         track: 86,
-        start: 0*60+1,
+        start: 0.1,
         end: 1*60+46
     },
     {
         title: 'Oriental Drop',
         id: 'lu_oLWJg6ao',
         track: 88,
-        start: 0*60+1,
+        start: 0.1,
         end: 2*60+3
     },
     {
@@ -303,7 +303,7 @@ const PLAYLIST = [
         title: 'Bunny Bunny Carrot Carrot',
         id: 'YJUngIIbR-4',
         track: 94,
-        start: 0*60+1,
+        start: 0.1,
         end: 1*60+55
     },
     {
@@ -317,7 +317,7 @@ const PLAYLIST = [
         title: 'OperationD',
         id: 'zhkSWznNGlA',
         track: 96,
-        start: 0*60+1,
+        start: 0.1,
         end: 1*60+53
     },
     {
