@@ -406,7 +406,12 @@ function resume () {
 }
 
 function prevmusic () {
-    play((PLAYLIST.current + PLAYLIST.length - 1) % PLAYLIST.length);
+    if (player.playerInfo.currentTime - PLAYLIST[num].start <= 5) {
+        play((PLAYLIST.current + PLAYLIST.length - 1) % PLAYLIST.length);
+    }
+    else {
+        play(PLAYLIST.current);
+    }
 }
 
 function nextmusic () {
