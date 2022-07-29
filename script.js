@@ -406,7 +406,7 @@ function resume () {
 }
 
 function prevmusic () {
-    if (player.playerInfo.currentTime - PLAYLIST[num].start <= 5) {
+    if (player.playerInfo.currentTime - PLAYLIST[PLAYLIST.current].start <= 5) {
         play((PLAYLIST.current + PLAYLIST.length - 1) % PLAYLIST.length);
     }
     else {
