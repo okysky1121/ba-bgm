@@ -1,29 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
 html, body {
-  font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+    background-color: #efefef;
+}
+
+#main-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #player {
-  margin: 20px;
+    margin: 20px;
 }
 
 #playhead {
-  margin: 20px;
+    background-color: #007fff;
+    
+    max-width: 375px;
+    min-width: 325px;
+    
+    margin-top: 20px;
+
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+    border-radius: 10px;
+
+    color: white;
+}
+
+#playhead-op {
+    display: flex;
+    justify-content: space-between;
 }
 
 #playlist {
-  padding: 20px;
-}
+    background-color: white;
+    
+    max-width: 375px;
+    min-width: 325px;
+    
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 
-.pl {
-  margin-bottom: -5px;
+    border-radius: 10px;
 }
 
 #btns button {
-  width: 35px;
-  height: 35px;
-  background: #e7e7e7;
-  border: 1px solid #e7e7e7;
-  border-radius: 10px;
+    background: transparent;
+
+    margin-right: 5px;
+    
+    width: 35px;
+    height: 35px;
+    
+    border: none;
+
+    font-size: 15px;
+    color: white;
+}
+
+article.pl {
+    background-color: white;
+
+    max-width: 350px;
+    min-width: 300px;
+    
+    margin: 0;
+
+    border-bottom: 1px solid #dedede;
+}
+
+.pl-title {
+    color: black;
+    font-size: 16px;
+}
+
+.pl-artist {
+    color: #bcbcbc;
+    font-size: 13.5px;
+    font-weight: lighter;
 }
