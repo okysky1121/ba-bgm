@@ -6,21 +6,25 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div id="playhead">
-        <h3 id="music-tit">&lt;No music being played&gt;</h3>
-        <p id="pg-bar"><span id="progress">0:00</span>/<span id="duration">0:00</span></p>
-        <div id="btns">
-            <button id="prev-music" onclick="prevmusic();">◄◄</button>
-            <button id="resume-music" onclick="resume();">▶</button>
-            <button id="next-music" onclick="nextmusic();">►►</button>
+    <div id="main-wrap">
+        <div id="playhead">
+            <h3 id="music-tit">&lt;No music being played&gt;</h3>
+            <div id="playhead-op">
+                <div id="pg-bar"><span id="progress">0:00</span>/<span id="duration">0:00</span></div>
+                <div id="btns">
+                    <button id="prev-music" onclick="prevmusic();">◄◄</button>
+                    <button id="resume-music" onclick="resume();">▶</button>
+                    <button id="next-music" onclick="nextmusic();">►►</button>
+                </div>
+            </div>
         </div>
+        <div id="player"></div>
+        <div id="playlist">
+        </div>
+        <footer>
+            <p>Made by <a style="text-decoration:none;color:black;" href="https://github.com/sanha1229">sanha1229</a></p>
+        </footer>
     </div>
-    <div id="player"></div>
-    <div id="playlist">
-    </div>
-    <footer>
-        <p>Made by <a style="text-decoration:none;color:black;" href="https://github.com/sanha1229">sanha1229</a></p>
-    </footer>
     <script src="script.js">
     </script>
 </body>
