@@ -11,7 +11,7 @@ const PLAYLIST = [
         id: 'hbYXXaaE9F0',
         track: 1,
         start: 0*60+17,
-        end: 2*60+34
+        end: 2*60+17
     },
     {
         title: 'Luminous Memory',
@@ -186,7 +186,7 @@ const PLAYLIST = [
         artist: 'KARUT',
         id: 'hbYXXaaE9F0',
         track: 28,
-        start: 2*60+34,
+        start: 2*60+17,
         end: 4*60+16
     },
     {
