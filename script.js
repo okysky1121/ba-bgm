@@ -404,10 +404,12 @@ function minsec (n) {
 function play (num) {
     clearInterval(player.__interval);
     
-    document.querySelector(`article.pl[onclick="play(${PLAYLIST.current})"]`).setAttribute('class', 'pl');
+    document.querySelectorAll('article.pl[onclick="play(${PLAYLIST.current})"]>p>span')[0].setAttribute('class', 'pl-title');
+    document.querySelectorAll('article.pl[onclick="play(${PLAYLIST.current})"]>p>span')[1].setAttribute('class', 'pl-artist');
     
     PLAYLIST.current = num;
-    document.querySelector(`article.pl[onclick="play(${num})"]`).setAttribute('class', 'pl np');
+    document.querySelectorAll('article.pl[onclick="play(${num})"]>p>span')[0].setAttribute('class', 'pl-np-title');
+    document.querySelectorAll('article.pl[onclick="play(${num})"]>p>span')[1].setAttribute('class', 'pl-np-artist');
     
     document.getElementById('music-tit').innerText = PLAYLIST[num].title;
     
