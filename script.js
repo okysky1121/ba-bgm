@@ -7,6 +7,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 const PLAYLIST = [
     {
         title: 'Constant Moderato',
+        artist: 'Mitsukiyo',
         id: 'hbYXXaaE9F0',
         track: 1,
         start: 0*60+17,
@@ -14,6 +15,7 @@ const PLAYLIST = [
     },
     {
         title: 'Luminous Memory',
+        artist: 'Mitsukiyo',
         id: 'ai3lHklPdV0',
         track: 2,
         start: 1*60+45,
@@ -21,6 +23,7 @@ const PLAYLIST = [
     },
     {
         title: 'Lovely Picnic',
+        artist: 'Mitsukiyo',
         id: 'hbYXXaaE9F0',
         track: 4,
         start: 6*60,
@@ -28,6 +31,7 @@ const PLAYLIST = [
     },
     {
         title: 'Colorful Mess',
+        artist: 'KARUT',
         id: 'eGX7qsgX7js',
         track: 5,
         start: 14*60+9,
@@ -35,6 +39,7 @@ const PLAYLIST = [
     },
     {
         title: 'Funky Road',
+        artist: 'KARUT',
         id: 'hbYXXaaE9F0',
         track: 6,
         start: 11*60+43,
@@ -42,6 +47,7 @@ const PLAYLIST = [
     },
     {
         title: 'Unwelcome School',
+        artist: 'Mitsukiyo',
         id: 'eGX7qsgX7js',
         track: 7,
         start: 12*60+14,
@@ -49,6 +55,7 @@ const PLAYLIST = [
     },
     {
         title: 'Midsummer cat',
+        artist: 'Mitsukiyo',
         id: 'ai3lHklPdV0',
         track: 9,
         start: 5*60+36,
@@ -56,6 +63,7 @@ const PLAYLIST = [
     },
     {
         title: 'Romantic Smile',
+        artist: 'Mitsukiyo',
         id: 'ai3lHklPdV0',
         track: 10,
         start: 9*60+6,
@@ -63,6 +71,7 @@ const PLAYLIST = [
     },
     {
         title: 'Connected Sky',
+        artist: 'KARUT',
         id: 'hbYXXaaE9F0',
         track: 11,
         start: 17*60+32,
@@ -70,6 +79,7 @@ const PLAYLIST = [
     },
     {
         title: 'Shooting Stars',
+        artist: 'KARUT',
         id: 'ai3lHklPdV0',
         track: 12,
         start: 4*60,
@@ -77,6 +87,7 @@ const PLAYLIST = [
     },
     {
         title: 'Barrier',
+        artist: 'KARUT',
         id: 'hbYXXaaE9F0',
         track: 13,
         start: 13*60+53,
@@ -84,6 +95,7 @@ const PLAYLIST = [
     },
     {
         title: 'Step by Step',
+        artist: 'KARUT',
         id: 'hbYXXaaE9F0',
         track: 14,
         start: 4*60+23,
@@ -91,6 +103,7 @@ const PLAYLIST = [
     },
     {
         title: 'Honey Jam',
+        artist: 'Mitsukiyo',
         id: 'hbYXXaaE9F0',
         track: 15,
         start: 19*60+15,
@@ -98,6 +111,7 @@ const PLAYLIST = [
     },
     {
         title: 'MX Adventure',
+        artist: 'Mitsukiyo',
         id: 'hbYXXaaE9F0',
         track: 16,
         start: 8*60+4,
@@ -105,6 +119,7 @@ const PLAYLIST = [
     },
     {
         title: 'Mechanical JUNGLE',
+        artist: 'KARUT',
         id: 'eGX7qsgX7js',
         track: 18,
         start: 1,
@@ -112,6 +127,7 @@ const PLAYLIST = [
     },
     {
         title: 'Virtual Storm',
+        artist: 'KARUT',
         id: 'eGX7qsgX7js',
         track: 19,
         start: 1*60+52,
@@ -119,6 +135,7 @@ const PLAYLIST = [
     },
     {
         title: 'Tech N Tech',
+        artist: 'KARUT',
         id: 'eGX7qsgX7js',
         track: 20,
         start: 3*60+11,
@@ -126,6 +143,7 @@ const PLAYLIST = [
     },
     {
         title: 'Midnight Trip',
+        artist: 'Nor',
         id: 'hbYXXaaE9F0',
         track: 21,
         start: 21*60+33.5,
@@ -133,6 +151,7 @@ const PLAYLIST = [
     },
     {
         title: 'Daily Routine 247',
+        artist: 'Nor',
         id: 'hbYXXaaE9F0',
         track: 22,
         start: 15*60+53,
@@ -140,6 +159,7 @@ const PLAYLIST = [
     },
     {
         title: 'Party Time',
+        artist: 'Mitsukiyo',
         id: 'eGX7qsgX7js',
         track: 23,
         start: 8*60+58,
@@ -147,6 +167,7 @@ const PLAYLIST = [
     },
     {
         title: 'Endless Carnival',
+        artist: 'Mitsukiyo',
         id: 'eGX7qsgX7js',
         track: 24,
         start: 6*60+52,
@@ -154,6 +175,7 @@ const PLAYLIST = [
     },
     {
         title: 'Future Bossa',
+        artist: 'Mitsukiyo',
         id: 'eGX7qsgX7js',
         track: 25,
         start: 10*60+16,
@@ -161,6 +183,7 @@ const PLAYLIST = [
     },
     {
         title: 'Plug and Play',
+        artist: 'KARUT',
         id: 'hbYXXaaE9F0',
         track: 28,
         start: 2*60+34,
@@ -168,6 +191,7 @@ const PLAYLIST = [
     },
     {
         title: 'CrossFire',
+        artist: 'KARUT',
         id: 'eGX7qsgX7js',
         track: 30,
         start: 5*60+3,
@@ -175,6 +199,7 @@ const PLAYLIST = [
     },
     {
         title: 'Hello to Halo',
+        artist: 'Nor',
         id: 'ai3lHklPdV0',
         track: 31,
         start: 0*60+1,
@@ -182,6 +207,7 @@ const PLAYLIST = [
     },
     {
         title: 'GGF',
+        artist: 'Nor',
         id: 'eGX7qsgX7js',
         track: 32,
         start: 15*60+13,
@@ -189,6 +215,7 @@ const PLAYLIST = [
     },
     {
         title: 'Vivid Night',
+        artist: 'Nor',
         id: 'hbYXXaaE9F0',
         track: 33,
         start: 9*60+56,
@@ -196,6 +223,7 @@ const PLAYLIST = [
     },
     {
         title: 'Aoharu',
+        artist: 'Nor',
         id: 'ai3lHklPdV0',
         track: 34,
         start: 7*60+15,
@@ -203,6 +231,7 @@ const PLAYLIST = [
     },
     {
         title: 'Morose Dreamer',
+        artist: 'Mitsukiyo',
         id: 'bLCRlPmpzEs',
         track: 35,
         start: 0*60+1,
@@ -210,6 +239,7 @@ const PLAYLIST = [
     },
     {
         title: 'Aira',
+        artist: 'Mitsukiyo',
         id: 'bLCRlPmpzEs',
         track: 37,
         start: 2*60+21,
@@ -217,6 +247,7 @@ const PLAYLIST = [
     },
     {
         title: 'Han-nari',
+        artist: 'Nor',
         id: 'tWZ5uRPurec',
         track: 57,
         start: 0*60+1,
@@ -224,6 +255,7 @@ const PLAYLIST = [
     },
     {
         title: 'SAKURA PUNCH',
+        artist: 'Nor',
         id: 'tWZ5uRPurec',
         track: 58,
         start: 1*60+42,
@@ -231,6 +263,7 @@ const PLAYLIST = [
     },
     {
         title: 'SAKURA PUNCH (Hard Arrange)',
+        artist: 'Nor',
         id: 'tWZ5uRPurec',
         track: 60,
         start: 3*60+45,
@@ -238,6 +271,7 @@ const PLAYLIST = [
     },
     {
         title: 'Pixel Time',
+        artist: 'Mitsukiyo',
         id: 'jLNikHtJUeA',
         track: 64,
         start: 0.1,
@@ -245,6 +279,7 @@ const PLAYLIST = [
     },
     {
         title: 'Summer Bounce',
+        artist: 'Mitsukiyo',
         id: 'lTjp3sGQ-NY',
         track: 79,
         start: 0.1,
@@ -252,6 +287,7 @@ const PLAYLIST = [
     },
     {
         title: 'Colorful Beach',
+        artist: 'Mitsukiyo',
         id: 'lTjp3sGQ-NY',
         track: 80,
         start: 2*60+18,
@@ -259,6 +295,7 @@ const PLAYLIST = [
     },
     {
         title: 'Summer Bounce (Hard Arrange)',
+        artist: 'KARUT',
         id: 'kENHnTLwoY8',
         track: 81,
         start: 1*60+46,
@@ -266,6 +303,7 @@ const PLAYLIST = [
     },
     {
         title: 'PRST Academy',
+        artist: 'Mitsukiyo',
         id: 'cTLVPXpKu-E',
         track: 83,
         start: 0.1,
@@ -273,6 +311,7 @@ const PLAYLIST = [
     },
     {
         title: 'PRST Marching',
+        artist: 'Mitsukiyo',
         id: 'cTLVPXpKu-E',
         track: 84,
         start: 1*60+43,
@@ -280,6 +319,7 @@ const PLAYLIST = [
     },
     {
         title: 'Summertime Archive',
+        artist: 'Mitsukiyo',
         id: 'kENHnTLwoY8',
         track: 86,
         start: 0.1,
@@ -287,6 +327,7 @@ const PLAYLIST = [
     },
     {
         title: 'Oriental Drop',
+        artist: 'KARUT',
         id: 'lu_oLWJg6ao',
         track: 88,
         start: 0.1,
@@ -294,6 +335,7 @@ const PLAYLIST = [
     },
     {
         title: 'The Dragon Express',
+        artist: 'KARUT',
         id: 'lu_oLWJg6ao',
         track: 89,
         start: 2*60+3,
@@ -301,6 +343,7 @@ const PLAYLIST = [
     },
     {
         title: 'Bunny Bunny Carrot Carrot',
+        artist: 'Mitsukiyo',
         id: 'YJUngIIbR-4',
         track: 94,
         start: 0.1,
@@ -308,6 +351,7 @@ const PLAYLIST = [
     },
     {
         title: 'Jackpot 777',
+        artist: 'KARUT',
         id: 'YJUngIIbR-4',
         track: 95,
         start: 1*60+55,
@@ -315,6 +359,7 @@ const PLAYLIST = [
     },
     {
         title: 'OperationD',
+        artist: 'Nor',
         id: 'zhkSWznNGlA',
         track: 96,
         start: 0.1,
@@ -322,32 +367,27 @@ const PLAYLIST = [
     },
     {
         title: 'Nesno wons',
+        artist: 'Mitsukiyo',
         id: 'aVKifR68kzQ',
         track: 99,
         start: 0*60+0.01,
         end: 1*60+56
-    },
-    {
-        title: 'Blue New World',
-        id: 'L6bl6RAZFT8',
-        track: 0,
-        start: 0*60+1,
-        end: 3*60+12
     },
 ];
 
 PLAYLIST.current = 0;
 
 document.getElementById('playlist').innerHTML += PLAYLIST.map((el, i) => {
-    return `<p class="pl"><span onclick="play(${i})">${el.track}. ${el.title}</span></p>`;
+    return `<article class="pl" onclick="play(${i})"><p><span class="pl-title">${el.track}. ${el.title}</span><br/><span class="pl-artist">${el.artist || 'ㅇㅇ'}</span></p></article>`;
 }).join('');
+
 
 var player;
 function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
         videoId: 'hbYXXaaE9F0',
-        width: Math.min(480, window.innerWidth-50),
-        height: 0.55*(Math.min(480, window.innerWidth-50))
+        width: Math.min(350, window.innerWidth-50),
+        height: 0.55*(Math.min(350, window.innerWidth-50))
     });
 
     player.__interval = setInterval(function () {
