@@ -90,3 +90,14 @@ article.pl {
     font-size: 13.5px;
     font-weight: lighter;
 }
+
+.pl-np-title {
+    color: #007fff;
+    font-size: 16px;
+}
+
+.pl-np-artist {
+    color: #007fff;
+    font-size: 13.5px;
+    font-weight: lighter;
+}
