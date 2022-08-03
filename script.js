@@ -404,12 +404,12 @@ function minsec (n) {
 function play (num) {
     clearInterval(player.__interval);
     
-    document.querySelectorAll('article.pl[onclick="play(${PLAYLIST.current})"]>p>span')[0].setAttribute('class', 'pl-title');
-    document.querySelectorAll('article.pl[onclick="play(${PLAYLIST.current})"]>p>span')[1].setAttribute('class', 'pl-artist');
+    document.querySelectorAll(`article.pl[onclick="play(${PLAYLIST.current})"]>p>span`)[0].setAttribute('class', 'pl-title');
+    document.querySelectorAll(`article.pl[onclick="play(${PLAYLIST.current})"]>p>span`)[1].setAttribute('class', 'pl-artist');
     
     PLAYLIST.current = num;
-    document.querySelectorAll('article.pl[onclick="play(${num})"]>p>span')[0].setAttribute('class', 'pl-np-title');
-    document.querySelectorAll('article.pl[onclick="play(${num})"]>p>span')[1].setAttribute('class', 'pl-np-artist');
+    document.querySelectorAll(`article.pl[onclick="play(${num})"]>p>span`)[0].setAttribute('class', 'pl-np-title');
+    document.querySelectorAll(`article.pl[onclick="play(${num})"]>p>span`)[1].setAttribute('class', 'pl-np-artist');
     
     document.getElementById('music-tit').innerText = PLAYLIST[num].title;
     
