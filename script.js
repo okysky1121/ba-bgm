@@ -403,7 +403,11 @@ function minsec (n) {
 
 function play (num) {
     clearInterval(player.__interval);
+    
+    document.querySelector(`article.pl[onclick="play(${PLAYLIST.current})"]`).setAttribute('class', 'pl');
+    
     PLAYLIST.current = num;
+    document.querySelector(`article.pl[onclick="play(${num})"]`).setAttribute('class', 'pl np');
     
     document.getElementById('music-tit').innerText = PLAYLIST[num].title;
     
