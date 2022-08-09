@@ -456,10 +456,14 @@ function play (num) {
     document.querySelectorAll(`article.pl[onclick="play(${PLAYLIST.current})"]>p>span`)[1].setAttribute('class', 'pl-artist');
     
     PLAYLIST.current = num;
+    
     document.querySelectorAll(`article.pl[onclick="play(${num})"]>p>span`)[0].setAttribute('class', 'pl-np-title');
     document.querySelectorAll(`article.pl[onclick="play(${num})"]>p>span`)[1].setAttribute('class', 'pl-np-artist');
     
     document.getElementById('music-tit').innerText = PLAYLIST[num].title;
+    
+    document.getElementById('src-url').innerText = `https://www.youtube.com/watch?v=${PLAYLIST[num].id}`;
+    document.getElementById('src-url').setAttribute('href', `https://www.youtube.com/watch?v=${PLAYLIST[num].id}`);
     
     let duration = PLAYLIST[num].end - PLAYLIST[num].start;
     document.getElementById('duration').innerText = minsec(duration);
