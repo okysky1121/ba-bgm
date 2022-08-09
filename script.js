@@ -200,18 +200,42 @@ const PLAYLIST = [
     {
         title: 'Future Bossa',
         artist: 'Mitsukiyo',
-        id: 'eGX7qsgX7js',
+        id: 'kiwWb_1KFKs',
         track: 25,
-        start: 10*60+16,
-        end: 12*60+14
+        start: 0.1,
+        end: 2*60+10
+    },
+    {
+        title: 'Lemonade Diary',
+        artist: 'Mitsukiyo',
+        id: 'WECXxQnpBPE',
+        track: 26,
+        start: 0.1,
+        end: 2*60+34
+    },
+    {
+        title: 'Fade Out',
+        artist: 'KARUT',
+        id: 'v6Zw9m89CS8',
+        track: 27,
+        start: 0.1,
+        end: 1*60+30
     },
     {
         title: 'Plug and Play',
         artist: 'KARUT',
-        id: 'hbYXXaaE9F0',
+        id: 'UqKlf3sOo3I',
         track: 28,
-        start: 2*60+18,
-        end: 4*60+16
+        start: 0.1,
+        end: 2*60+7
+    },
+    {
+        title: 'Alert',
+        artist: 'KARUT',
+        id: 'EDJttssxhuA',
+        track: 29,
+        start: 0.1,
+        end: 1*60+58
     },
     {
         title: 'CrossFire',
