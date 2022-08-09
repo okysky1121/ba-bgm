@@ -160,26 +160,26 @@ const PLAYLIST = [
     {
         title: 'Tech N Tech',
         artist: 'KARUT',
-        id: 'eGX7qsgX7js',
+        id: 'bg0GKgxO9lo',
         track: 20,
-        start: 3*60+11,
-        end: 5*60+3
+        start: 0.1,
+        end: 2*60+3
     },
     {
         title: 'Midnight Trip',
         artist: 'Nor',
-        id: 'hbYXXaaE9F0',
+        id: 'KopFUu0F4gk',
         track: 21,
-        start: 21*60+33.5,
-        end: 22*60+52
+        start: 0.1,
+        end: 1*60+32
     },
     {
         title: 'Daily Routine 247',
         artist: 'Nor',
-        id: 'hbYXXaaE9F0',
+        id: 'fTW7D5u0HfE',
         track: 22,
-        start: 15*60+53,
-        end: 17*60+32
+        start: 0.1,
+        end: 1*60+55
     },
     {
         title: 'Party Time',
@@ -192,10 +192,10 @@ const PLAYLIST = [
     {
         title: 'Endless Carnival',
         artist: 'Mitsukiyo',
-        id: 'eGX7qsgX7js',
+        id: 'eOUzJN-W-rE',
         track: 24,
-        start: 6*60+52,
-        end: 8*60+58
+        start: 0.1,
+        end: 2*60+22
     },
     {
         title: 'Future Bossa',
