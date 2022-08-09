@@ -74,6 +74,10 @@ body {
     min-width: 300px;
     
     font-size: 10px;
+    
+    padding-top: 3px;
+    
+    border-bottom: 1px solid #dedede;
 }
 
 article.pl {
