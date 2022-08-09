@@ -120,10 +120,10 @@ const PLAYLIST = [
     {
         title: 'Honey Jam',
         artist: 'Mitsukiyo',
-        id: 'hbYXXaaE9F0',
+        id: 'x-2yKahdTpg',
         track: 15,
-        start: 19*60+15,
-        end: 21*60+34
+        start: 0.1,
+        end: 2*60+18
     },
     {
         title: 'MX Adventure',
@@ -134,20 +134,28 @@ const PLAYLIST = [
         end: 9*60+55
     },
     {
+        title: 'Irasshaimase',
+        artist: 'Mitsukiyo',
+        id: 'jHSozMn7GgA',
+        track: 17,
+        start: 0.1,
+        end: 2*60+9
+    },
+    {
         title: 'Mechanical JUNGLE',
         artist: 'KARUT',
-        id: 'eGX7qsgX7js',
+        id: 'JhWiVeXf2JM',
         track: 18,
-        start: 1,
-        end: 1*60+39
+        start: 0.1,
+        end: 2*60+2
     },
     {
         title: 'Virtual Storm',
         artist: 'KARUT',
-        id: 'eGX7qsgX7js',
+        id: 'vCvjZB8PqMQ',
         track: 19,
-        start: 1*60+52,
-        end: 3*60+11
+        start: 0.1,
+        end: 2*60+5
     },
     {
         title: 'Tech N Tech',
