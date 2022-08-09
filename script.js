@@ -11,7 +11,7 @@ const PLAYLIST = [
         id: 'SHkF48SgiSA',
         track: 1,
         start: 0.1,
-        end: 2*60+18
+        end: 2*60+17
     },
     {
         title: 'Luminous Memory',
