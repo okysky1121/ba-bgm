@@ -433,7 +433,7 @@ document.getElementById('playlist').innerHTML += PLAYLIST.map((el, i) => {
 var player;
 function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
-        videoId: 'aVKifR68kzQ',
+        videoId: 'SHkF48SgiSA',
         width: Math.min(350, window.innerWidth-50),
         height: 0.55*(Math.min(350, window.innerWidth-50))
     });
