@@ -59,7 +59,7 @@ const PLAYLIST = [
         id: 'pEg_d2f6myw',
         track: 7,
         start: 0.1,
-        end: 1*60+59
+        end: 2*60
     },
     {
         title: 'Shady Girls',
@@ -67,7 +67,7 @@ const PLAYLIST = [
         id: 'v7s-gHSs-YM',
         track: 8,
         start: 0.1,
-        end: 2*60+33
+        end: 2*60+34
     },
     {
         title: 'Midsummer cat',
@@ -75,7 +75,7 @@ const PLAYLIST = [
         id: 'jokHmrFq56E',
         track: 9,
         start: 0.1,
-        end: 2*60+18
+        end: 2*60+19
     },
     {
         title: 'Romantic Smile',
@@ -83,7 +83,7 @@ const PLAYLIST = [
         id: 'EBnOCXXg91o',
         track: 10,
         start: 0.1,
-        end: 2*60+12
+        end: 2*60+13
     },
     {
         title: 'Connected Sky',
@@ -91,7 +91,7 @@ const PLAYLIST = [
         id: 'DzhcJxrS5Z8',
         track: 11,
         start: 0.1,
-        end: 2*60
+        end: 2*60+1
     },
     {
         title: 'Shooting Stars',
@@ -99,7 +99,7 @@ const PLAYLIST = [
         id: 'yfsqGCO_ZfM',
         track: 12,
         start: 0.1,
-        end: 1*60+55
+        end: 1*60+56
     },
     {
         title: 'Barrier',
@@ -107,15 +107,15 @@ const PLAYLIST = [
         id: 'phqb4ifkTrE',
         track: 13,
         start: 0.1,
-        end: 2*60+3
+        end: 2*60+4
     },
     {
         title: 'Step by Step',
         artist: 'KARUT',
-        id: 'hbYXXaaE9F0',
+        id: 'kuacQoR4U8I',
         track: 14,
-        start: 4*60+23,
-        end: 6*60
+        start: 0.1,
+        end: 2*60+10
     },
     {
         title: 'Honey Jam',
