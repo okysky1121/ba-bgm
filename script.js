@@ -104,10 +104,10 @@ const PLAYLIST = [
     {
         title: 'Barrier',
         artist: 'KARUT',
-        id: 'hbYXXaaE9F0',
+        id: 'phqb4ifkTrE',
         track: 13,
-        start: 13*60+53,
-        end: 15*60+53
+        start: 0.1,
+        end: 2*60+3
     },
     {
         title: 'Step by Step',
