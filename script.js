@@ -56,42 +56,50 @@ const PLAYLIST = [
     {
         title: 'Unwelcome School',
         artist: 'Mitsukiyo',
-        id: 'eGX7qsgX7js',
+        id: 'pEg_d2f6myw',
         track: 7,
-        start: 12*60+14,
-        end: 14*60+9
+        start: 0.1,
+        end: 1*60+59
+    },
+    {
+        title: 'Shady Girls',
+        artist: 'Mitsukiyo',
+        id: 'v7s-gHSs-YM',
+        track: 8,
+        start: 0.1,
+        end: 2*60+33
     },
     {
         title: 'Midsummer cat',
         artist: 'Mitsukiyo',
-        id: 'ai3lHklPdV0',
+        id: 'jokHmrFq56E',
         track: 9,
-        start: 5*60+36,
-        end: 7*60+15
+        start: 0.1,
+        end: 2*60+18
     },
     {
         title: 'Romantic Smile',
         artist: 'Mitsukiyo',
-        id: 'ai3lHklPdV0',
+        id: 'EBnOCXXg91o',
         track: 10,
-        start: 9*60+6,
-        end: 11*60+15
+        start: 0.1,
+        end: 2*60+12
     },
     {
         title: 'Connected Sky',
         artist: 'KARUT',
-        id: 'hbYXXaaE9F0',
+        id: 'DzhcJxrS5Z8',
         track: 11,
-        start: 17*60+32,
-        end: 19*60+15
+        start: 0.1,
+        end: 2*60
     },
     {
         title: 'Shooting Stars',
         artist: 'KARUT',
-        id: 'ai3lHklPdV0',
+        id: 'yfsqGCO_ZfM',
         track: 12,
-        start: 4*60,
-        end: 5*60+36
+        start: 0.1,
+        end: 1*60+55
     },
     {
         title: 'Barrier',
