@@ -69,6 +69,13 @@ body {
     color: white;
 }
 
+#playsrc {
+    max-width: 350px;
+    min-width: 300px;
+    
+    font-size: 10px;
+}
+
 article.pl {
     background-color: white;
 
@@ -100,10 +107,6 @@ article.pl {
     color: #007fff;
     font-size: 13.5px;
     font-weight: lighter;
-}
-
-#playsrc {
-    font-size: 10px;
 }
 
 #footer {
