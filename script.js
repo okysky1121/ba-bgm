@@ -16,10 +16,10 @@ const PLAYLIST = [
     {
         title: 'Luminous Memory',
         artist: 'Mitsukiyo',
-        id: 'ai3lHklPdV0',
+        id: 'D3boxTP-ZG8',
         track: 2,
-        start: 1*60+45,
-        end: 4*60
+        start: 0.1,
+        end: 2*60+17
     },
     {
         title: 'Lovely Picnic',
