@@ -19,7 +19,7 @@ const PLAYLIST = [
         id: 'D3boxTP-ZG8',
         track: 2,
         start: 0.1,
-        end: 2*60+17
+        end: 2*60+16
     },
     {
         title: 'Lovely Picnic',
