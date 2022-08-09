@@ -101,3 +101,9 @@ article.pl {
     font-size: 13.5px;
     font-weight: lighter;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
