@@ -40,10 +40,10 @@ const PLAYLIST = [
     {
         title: 'Colorful Mess',
         artist: 'KARUT',
-        id: 'eGX7qsgX7js',
+        id: 'OF9cu3cutj0',
         track: 5,
-        start: 14*60+9,
-        end: 15*60+14
+        start: 0.1,
+        end: 1*60+51
     },
     {
         title: 'Funky Road',
