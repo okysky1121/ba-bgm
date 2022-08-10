@@ -240,10 +240,10 @@ const PLAYLIST = [
     {
         title: 'CrossFire',
         artist: 'KARUT',
-        id: 'eGX7qsgX7js',
+        id: 'AqBVDJDB0ps',
         track: 30,
-        start: 5*60+3,
-        end: 6*60+43
+        start: 0.1,
+        end: 1*60+54
     },
     {
         title: 'Hello to Halo',
@@ -256,10 +256,10 @@ const PLAYLIST = [
     {
         title: 'GGF',
         artist: 'Nor',
-        id: 'eGX7qsgX7js',
+        id: 'skr-e1x4wy4',
         track: 32,
-        start: 15*60+13,
-        end: 17*60+3
+        start: 0.1,
+        end: 1*60+52
     },
     {
         title: 'Vivid Night',
@@ -272,10 +272,10 @@ const PLAYLIST = [
     {
         title: 'Aoharu',
         artist: 'Nor',
-        id: 'ai3lHklPdV0',
+        id: 'Oeedwk9oQLk',
         track: 34,
-        start: 7*60+15,
-        end: 9*60+5
+        start: 0.1,
+        end: 1*60+48
     },
     {
         title: 'Morose Dreamer',
