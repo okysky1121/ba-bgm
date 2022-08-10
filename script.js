@@ -259,7 +259,7 @@ const PLAYLIST = [
         id: 'skr-e1x4wy4',
         track: 32,
         start: 0.1,
-        end: 1*60+52
+        end: 1*60+51
     },
     {
         title: 'Vivid Night',
