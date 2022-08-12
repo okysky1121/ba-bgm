@@ -286,12 +286,60 @@ const PLAYLIST = [
         end: 2*60+21
     },
     {
+        title: 'Koi is Love',
+        artist: 'Mitsukiyo',
+        id: 'lzUS9plwjoQ',
+        track: 36,
+        start: 0.1,
+        end: 1*60+48
+    },
+    {
         title: 'Aira',
         artist: 'Mitsukiyo',
         id: 'bLCRlPmpzEs',
         track: 37,
         start: 2*60+21,
         end: 4*60+37
+    },
+    {
+        title: 'Guruguru Usagi',
+        artist: 'Mitsukiyo',
+        id: 'rpOxGU1CssA',
+        track: 38,
+        start: 0.1,
+        end: 2*60+17,
+    },
+    {
+        title: 'Water Drop',
+        artist: 'KARUT',
+        id: '0vpYgve07W8',
+        track: 39,
+        start: 0.1,
+        end: 2*60+10
+    },
+    {
+        title: 'Neo City Dive',
+        artist: 'KARUT',
+        id: 'VjdZmDzbZzk',
+        track: 40,
+        start: 0.1,
+        end: 2*60+18
+    },
+    {
+        title: 'Interface',
+        artist: 'KARUT',
+        id: 'kvWf9z02tIw',
+        track: 41,
+        start: 0.1,
+        end: 1*60+56
+    },
+    {
+        title: 'Glitch Street',
+        artist: 'KARUT',
+        id: 'XOY9xsXeYWk',
+        track: 42,
+        start: 0.1,
+        end: 2*60+6
     },
     {
         title: 'Han-nari',
