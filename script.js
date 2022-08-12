@@ -366,6 +366,14 @@ const PLAYLIST = [
         end: 5*60+47
     },
     {
+        title: 'Rolling beat',
+        artist: 'Mitsukiyo',
+        id: 'lKRgr_mO2jQ',
+        track: 61,
+        start: 0.1,
+        end: 2*60+31
+    },
+    {
         title: 'Pixel Time',
         artist: 'Mitsukiyo',
         id: 'jLNikHtJUeA',
