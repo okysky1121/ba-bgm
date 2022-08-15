@@ -1,112 +1,89 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Blue Archive BGM Player</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
     <div id="main-wrap">
-        <div id="playhead">
-            <h3 id="music-tit">&lt;No music being played&gt;</h3>
-            <div id="playhead-op">
-                <div id="pg-bar"><span id="progress">0:00</span>/<span id="duration">0:00</span></div>
-                <div id="btns">
-                    <button id="prev-music" onclick="prevmusic();">◄◄</button>
-                    <button id="resume-music" onclick="resume();">▶</button>
-                    <button id="next-music" onclick="nextmusic();">►►</button>
-                </div>
-            </div>
+      <div id="playhead">
+        <h3 id="music-tit">&lt;No music being played&gt;</h3>
+        <div id="playhead-op">
+          <div id="pg-bar">
+            <span id="progress">0:00</span>/<span id="duration">0:00</span>
+          </div>
+          <div id="btns">
+            <button id="prev-music" onclick="prevmusic();">◄◄</button>
+            <button id="resume-music" onclick="resume();">▶</button>
+            <button id="next-music" onclick="nextmusic();">►►</button>
+          </div>
         </div>
-        <div id="player"></div>
-        <div id="playlist">
-            <div id="playsrc">현재 재생중인 음악의 원본 영상 출처(URL)<br/><a id="src-url"></a></div>
+      </div>
+      <div id="player"></div>
+      <div id="playlist">
+        <div id="playsrc">
+          현재 재생중인 음악의 원본 영상 출처(URL)<br /><a id="src-url"></a>
         </div>
-        <div id="footer">
-            <article class="cr">
-                블루 아카이브(Blue Archive)는 NAT Games(현재: 넥슨 게임즈(NEXON Games Co., Ltd.))에서 개발한 모바일 게임이며, Yostar가 일본, Nexon이 글로벌 서비스를 하고 있습니다.
-            </article>
-            <article class="cr">이 사이트에서 YouTube Iframe Player API를 이용하여 재생되도록 되어있는 음악 
-Constant Moderato, 
-Luminous Memory, 
-Mischievous Step, 
-Lovely Picnic, 
-Colorful Mess, 
-Funky Road, 
-Unwelcome School, 
-Shady Girls, 
-Midsummer cat, 
-Romantic Smile, 
-Connected Sky, 
-Shooting Stars, 
-Barrier, 
-Step by Step, 
-Honey Jam, 
-MX Adventure, 
-Irasshaimase, 
-Mechanical JUNGLE, 
-Virtual Storm, 
-Tech N Tech, 
-Midnight Trip, 
-Daily Routine 247, 
-Party Time, 
-Endless Carnival, 
-Future Bossa, 
-Lemonade Diary, 
-Fade Out, 
-Plug and Play, 
-Alert, 
-CrossFire, 
-Hello to Halo, 
-GGF, 
-Vivid Night, 
-Aoharu, 
-Morose Dreamer, 
-Koi is Love, 
-Aira, 
-Guruguru Usagi, 
-Water Drop, 
-Neo City Dive, 
-Interface, 
-Glitch Street, 
-Han-nari, 
-SAKURA PUNCH, 
-SAKURA PUNCH (Hard Arrange), 
-Rolling Beat, 
-Pixel Time, 
-Summer Bounce, 
-Colorful Beach, 
-Summer Bounce (Hard Arrange), 
-PRST Academy, 
-PRST Marching, 
-Summertime Archive, 
-Oriental Drop, 
-The Dragon Express, 
-Bunny Bunny Carrot Carrot, 
-Jackpot 777, 
-OperationD, 
-Nesno wons
-                는 모두 블루 아카이브(Blue Archive)의 OST입니다.</article>
-            <h4>Blue Archive OST Artists</h4>
-            <article class="cr">
-                <a href="https://twitter.com/NOR0910">Nor</a> /
-                <a href="https://twitter.com/triplebullets">KARUT</a> /
-                <a href="https://twitter.com/mitsukiyo_5">Mitsukiyo</a>
-            </article>
-            <h4>Blue Archive Official Website</h4>
-            <article class="cr">
-                Blue Archive Official Website (JP): <a href="https://bluearchive.jp/">https://bluearchive.jp/</a><br/>
-                Blue Archive Official Website (Global): <a href="https://bluearchive.nexon.com/">https://bluearchive.nexon.com/</a>
-            </article>
-            <h4>Blue Archive Official YouTube Channel</h4>
-            <article class="cr">
-                Blue Archive Official YouTube Channel (KR): <a href="https://www.youtube.com/channel/UCj0iColXMAjPA92rH-AXVGQ">https://www.youtube.com/channel<br/>/UCj0iColXMAjPA92rH-AXVGQ</a><br/>
-                Blue Archive Official YouTube Channel (JP): <a href="https://www.youtube.com/channel/UCmgf8DJrAXFnU7j3u0kklUQ">https://www.youtube.com/channel<br/>/UCmgf8DJrAXFnU7j3u0kklUQ</a><br/>
-                Blue Archive Official YouTube Channel (Global): <a href="https://www.youtube.com/channel/UCsrnDYrkovQhCCE8kwKcvKQ">https://www.youtube.com/channel<br/>/UCsrnDYrkovQhCCE8kwKcvKQ</a>
-            </article>    
-        </div>
+      </div>
+      <div id="footer">
+        <article class="cr">
+          블루 아카이브(Blue Archive)는 NAT Games(현재: 넥슨 게임즈(NEXON Games
+          Co., Ltd.))에서 개발한 모바일 게임이며, Yostar가 일본, Nexon이 글로벌
+          서비스를 하고 있습니다.
+        </article>
+        <article class="cr">
+          이 사이트에서 YouTube Iframe Player API를 이용하여 재생되도록 되어있는
+          음악 Constant Moderato, Luminous Memory, Mischievous Step, Lovely
+          Picnic, Colorful Mess, Funky Road, Unwelcome School, Shady Girls,
+          Midsummer cat, Romantic Smile, Connected Sky, Shooting Stars, Barrier,
+          Step by Step, Honey Jam, MX Adventure, Irasshaimase, Mechanical
+          JUNGLE, Virtual Storm, Tech N Tech, Midnight Trip, Daily Routine 247,
+          Party Time, Endless Carnival, Future Bossa, Lemonade Diary, Fade Out,
+          Plug and Play, Alert, CrossFire, Hello to Halo, GGF, Vivid Night,
+          Aoharu, Morose Dreamer, Koi is Love, Aira, Guruguru Usagi, Water Drop,
+          Neo City Dive, Interface, Glitch Street, Han-nari, SAKURA PUNCH,
+          SAKURA PUNCH (Hard Arrange), Rolling Beat, Pixel Time, Summer Bounce,
+          Colorful Beach, Summer Bounce (Hard Arrange), PRST Academy, PRST
+          Marching, Summertime Archive, Oriental Drop, The Dragon Express, Bunny
+          Bunny Carrot Carrot, Jackpot 777, OperationD, Nesno wons 는 모두 블루
+          아카이브(Blue Archive)의 OST입니다.
+        </article>
+        <h4>Blue Archive OST Artists</h4>
+        <article class="cr">
+          <a href="https://twitter.com/NOR0910">Nor</a> /
+          <a href="https://twitter.com/triplebullets">KARUT</a> /
+          <a href="https://twitter.com/mitsukiyo_5">Mitsukiyo</a>
+        </article>
+        <h4>Blue Archive Official Website</h4>
+        <article class="cr">
+          Blue Archive Official Website (JP):
+          <a href="https://bluearchive.jp/">https://bluearchive.jp/</a><br />
+          Blue Archive Official Website (Global):
+          <a href="https://bluearchive.nexon.com/"
+            >https://bluearchive.nexon.com/</a
+          >
+        </article>
+        <h4>Blue Archive Official YouTube Channel</h4>
+        <article class="cr">
+          Blue Archive Official YouTube Channel (KR):
+          <a href="https://www.youtube.com/channel/UCj0iColXMAjPA92rH-AXVGQ"
+            >https://www.youtube.com/channel<br />/UCj0iColXMAjPA92rH-AXVGQ</a
+          ><br />
+          Blue Archive Official YouTube Channel (JP):
+          <a href="https://www.youtube.com/channel/UCmgf8DJrAXFnU7j3u0kklUQ"
+            >https://www.youtube.com/channel<br />/UCmgf8DJrAXFnU7j3u0kklUQ</a
+          ><br />
+          Blue Archive Official YouTube Channel (Global):
+          <a href="https://www.youtube.com/channel/UCsrnDYrkovQhCCE8kwKcvKQ"
+            >https://www.youtube.com/channel<br />/UCsrnDYrkovQhCCE8kwKcvKQ</a
+          >
+        </article>
+      </div>
     </div>
-    <script src="script.js">
-    </script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
