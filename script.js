@@ -526,10 +526,10 @@ function play(num) {
 
   document
     .querySelectorAll(`article.pl[onclick="play(${num})"]>p>span`)[0]
-    .setAttribute('class', 'pl-np-title');
+    .classList.add('np');
   document
     .querySelectorAll(`article.pl[onclick="play(${num})"]>p>span`)[1]
-    .setAttribute('class', 'pl-np-artist');
+    .classList.add('np');
 
   document.getElementById('music-tit').innerText = PLAYLIST[num].title;
 
