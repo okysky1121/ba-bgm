@@ -12,29 +12,30 @@ body {
 #main-wrap {
   display: flex;
   flex-direction: column;
+  padding: 20px;
+
+  gap: 20px;
+
   align-items: center;
 }
 
-#player {
-  margin: 20px;
-}
-
 #playhead {
-  background-color: #007fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
 
-  max-width: 375px;
-  min-width: 325px;
-
-  margin-top: 20px;
-
-  padding-top: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-
+  gap: 18px;
   border-radius: 10px;
 
   color: white;
+  background-color: #007fff;
+}
+
+#music-tit {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 #playhead-op {
@@ -42,76 +43,66 @@ body {
   justify-content: space-between;
 }
 
-#playlist {
-  background-color: white;
+#pg-bar {
+  font-size: 16px;
+  font-weight: 400;
+}
 
-  max-width: 375px;
-  min-width: 325px;
+#btns {
+  display: flex;
 
-  padding-top: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-
-  border-radius: 10px;
+  gap: 4px;
 }
 
 #btns button {
   background: transparent;
-
-  margin-right: 5px;
 
   width: 35px;
   height: 35px;
 
   border: none;
 
-  font-size: 15px;
+  font-size: 16px;
   color: white;
 }
 
-#playsrc {
-  max-width: 350px;
-  min-width: 300px;
+#playlist {
+  width: 100%;
+  padding: 0px 20px 20px 20px;
+  box-sizing: border-box;
 
-  font-size: 10px;
+  border-radius: 10px;
 
-  padding-top: 2.5px;
-  padding-bottom: 7.5px;
-
-  border-bottom: 1px solid #dedede;
+  background-color: white;
 }
 
-article.pl {
-  background-color: white;
+#playlist > * {
+  border-bottom: solid 1px #dedede;
+}
 
-  max-width: 350px;
-  min-width: 300px;
+#playsrc {
+  padding: 8px 0px;
 
-  margin: 0;
-
-  border-bottom: 1px solid #dedede;
+  font-size: 10px;
 }
 
 .pl-title {
-  color: black;
   font-size: 16px;
 }
 
 .pl-artist {
+  font-size: 14px;
+
   color: #bcbcbc;
-  font-size: 13.5px;
-  font-weight: lighter;
 }
 
-.pl-np-title {
+.pl-title.np {
   color: #007fff;
-  font-size: 16px;
 }
 
-.pl-np-artist {
+.pl-artist.np {
   color: #007fff;
-  font-size: 13.5px;
+
   font-weight: lighter;
 }
 
