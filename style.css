@@ -83,11 +83,15 @@ body {
 
 .pl-artist {
   font-size: 14px;
-  color: #bcbcbc;
+  opacity: 0.26;
 }
 
 .np {
-  color: #007fff !important;
+  color: #007fff;
+}
+
+.np .pl-artist {
+  opacity: 1;
 }
 
 #footer {
