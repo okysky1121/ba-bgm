@@ -13,9 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 20px;
-
   gap: 20px;
-
   align-items: center;
 }
 
@@ -25,10 +23,8 @@ body {
   flex-direction: column;
   padding: 20px;
   box-sizing: border-box;
-
   gap: 18px;
   border-radius: 10px;
-
   color: white;
   background-color: #007fff;
 }
@@ -50,18 +46,12 @@ body {
 
 #btns {
   display: flex;
-
   gap: 4px;
 }
 
-#btns button {
-  background: transparent;
-
+#btns * {
   width: 35px;
   height: 35px;
-
-  border: none;
-
   font-size: 16px;
   color: white;
 }
@@ -70,9 +60,7 @@ body {
   width: 100%;
   padding: 0px 20px 20px 20px;
   box-sizing: border-box;
-
   border-radius: 10px;
-
   background-color: white;
 }
 
@@ -82,8 +70,11 @@ body {
 
 #playsrc {
   padding: 8px 0px;
-
   font-size: 10px;
+}
+
+.pl {
+  cursor: pointer;
 }
 
 .pl-title {
@@ -92,39 +83,22 @@ body {
 
 .pl-artist {
   font-size: 14px;
-
   color: #bcbcbc;
 }
 
-.pl-title.np {
-  color: #007fff;
-}
-
-.pl-artist.np {
-  color: #007fff;
-
-  font-weight: lighter;
+.np {
+  color: #007fff !important;
 }
 
 #footer {
   background-color: transparent;
-
-  max-width: 375px;
-  min-width: 325px;
-
-  padding-top: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-
-  border-radius: 10px;
 }
 
 article.cr {
   background-color: transparent;
-
-  max-width: 350px;
-  min-width: 300px;
-
   margin: 0;
+}
+
+iframe {
+  width: 100%;
 }
