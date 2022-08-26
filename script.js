@@ -33,7 +33,7 @@ musics.forEach(({ title, artist }, i) => {
 });
 
 function minsec(n) {
-  return `${Math.max(0, Math.floor(n / 60))}:${`${n % 60 | 0}`.padStart(
+  return `${Math.max(0, Math.floor(n / 60)) || 0}:${`${n % 60 | 0}`.padStart(
     2,
     '0'
   )}`;
